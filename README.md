@@ -16,17 +16,17 @@ Project Condition:
 You can find the video here.
 
 ----Commands used in the video----
-sudo docker pull latarc/floodlight
-sudo docker run -d -p 6653:6653 -p 8080:8080 --name=floodlight latarc/floodlight
-sudo docker start floodlight
-sudo docker images
-sudo docker ps -a
+`sudo docker pull latarc/floodlight`
+`sudo docker run -d -p 6653:6653 -p 8080:8080 --name=floodlight latarc/floodlight`
+`sudo docker start floodlight`
+`sudo docker images`
+`sudo docker ps -a`
 (i already installed mininet, but you haven't, try `sudo apt install mininet`)
-sudo mn --switch ovsbr --test pingall
-sudo mn --custom custom_topology.py --topo=mytopo --controller=remote
-h1 arp -a
-h2 arp -a
-dump
-h1 ping s1
-h2 ping s2
-net
+`sudo mn --switch ovsbr --test pingall`
+`sudo mn --custom custom_topology.py --topo=mytopo --controller=remote`
+`h1 arp -a`
+`h2 arp -a`
+`dump`
+`h1 ping s1`
+`h2 ping s2`
+`net`
