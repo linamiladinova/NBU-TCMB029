@@ -15,7 +15,7 @@ Project Condition:
 - Demonstrate how you configure bidirectional traffic rules between the two farthest hosts on your network with a script to the floodlight API.
 You can find the video here.
 
-----Commands used in the video----
+----Commands used in the video----<br />
 `sudo docker pull latarc/floodlight`<br />
 `sudo docker run -d -p 6653:6653 -p 8080:8080 --name=floodlight latarc/floodlight`<br />
 `sudo docker start floodlight`<br />
